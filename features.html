@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مميزات Vexa DL بالتفصيل</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .feature-detail {
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 24px;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+            align-items: start;
+        }
+        .feature-detail .feat-icon {
+            margin-bottom: 0;
+            width: 80px;
+            height: 80px;
+            font-size: 2rem;
+            background: var(--bg-main);
+        }
+        .feature-text h2 { margin-bottom: 16px; font-size: 1.8rem; }
+        .feature-text p { color: var(--text-gray); font-size: 1.1rem; line-height: 1.8; }
+        
+        @media (max-width: 768px) {
+            .feature-detail { grid-template-columns: 1fr; text-align: center; justify-items: center;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-icon">V</div>
+                <a href="index.html" style="text-decoration:none; color:inherit;"><span class="logo-text">Vexa DL</span></a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#about">عن التطبيق</a>
+                <a href="index.html#features">المميزات</a>
+                <a href="index.html#faq">الأسئلة الشائعة</a>
+            </div>
+            <div class="nav-actions">
+                <a href="index.html#download" class="btn btn-black">حمل التطبيق</a>
+            </div>
+        </nav>
+
+        <main style="padding: 100px 0; max-width: 900px; margin: 0 auto;">
+            <div class="text-center mb-5" style="margin-bottom: 60px;">
+                <div class="section-label reveal">اكتشف المزيد</div>
+                <h1 class="reveal delay-1" style="font-size: 3rem; margin-bottom: 16px;">كل ما يقدمه لك Vexa DL</h1>
+                <p class="reveal delay-2" style="color: var(--text-gray); font-size: 1.2rem;">تعرف بالتفصيل على الخصائص التي تجعل من تطبيقنا الأفضل في فئته.</p>
+            </div>
+            
+            <div id="smart-organize" class="feature-detail reveal">
+                <div class="feat-icon" style="color: var(--text-dark);"><i class="fa-solid fa-folder-open"></i></div>
+                <div class="feature-text">
+                    <h2>التنظيم الذكي للملفات</h2>
+                    <p>لن تضيع ملفاتك بعد اليوم. يمتلك التطبيق نظام إدارة ملفات مدمج وقوي يقوم بفرز الفيديوهات والمقاطع الصوتية المحملة بشكل تلقائي في مجلدات واضحة. يمكنك إنشاء مجلدات مخصصة، إعادة تسمية الملفات، والبحث عنها بسرعات فائقة من داخل التطبيق مباشرة لتوفير وقتك وجهدك.</p>
+                </div>
+            </div>
+
+            <div id="background-dl" class="feature-detail reveal delay-1" style="background: var(--accent-lime);">
+                <div class="feat-icon" style="background: var(--text-dark); color: var(--accent-lime); border-color: transparent;"><i class="fa-solid fa-bolt"></i></div>
+                <div class="feature-text">
+                    <h2>التنزيل الفعّال بالخلفية</h2>
+                    <p>وقتك ثمين! بمجرد بدء التحميل، يمكنك إغلاق واجهة التطبيق واستخدام هاتفك للرد على الرسائل أو التصفح كما تشاء. محرك التحميل الخاص بنا سيعمل بثبات في الخلفية دون استنزاف بطاريتك، وسيرسل لك إشعاراً بمجرد اكتمال العملية بنجاح.</p>
+                </div>
+            </div>
+
+            <div id="privacy" class="feature-detail reveal delay-2">
+                <div class="feat-icon" style="color: var(--text-dark);"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="feature-text">
+                    <h2>خصوصية وأمان 100%</h2>
+                    <p>نحن لا نتتبع ما تقوم بتحميله. تطبيق Vexa DL لا يطلب منك إنشاء حساب، أو إدخال بريد إلكتروني، أو ربط حساباتك الاجتماعية. كل عمليات التحميل تتم محلياً على جهازك مما يضمن بقاء سجل تحميلاتك خاصاً بك وحدك دون رفع أي بيانات لخوادمنا.</p>
+                </div>
+            </div>
+
+            <div id="formats" class="feature-detail reveal delay-3">
+                <div class="feat-icon" style="color: var(--text-dark);"><i class="fa-solid fa-photo-film"></i></div>
+                <div class="feature-text">
+                    <h2>دعم شامل للجودات والصيغ</h2>
+                    <p>سواء كنت ترغب في الاحتفاظ بأغنية بصيغة MP3 لتسمعها لاحقاً، أو تحميل مقطع مرئي بدقة 4K الخارقة لمشاهدته على شاشة كبيرة، Vexa DL يوفر لك الخيارات جميعها قبل التحميل لتقرر ما يناسب مساحة تخزينك واحتياجك الفعلي.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4 reveal">
+                <a href="index.html" class="btn btn-black"><i class="fa-solid fa-arrow-right" style="margin-left: 8px; margin-right: 0;"></i> العودة للصفحة الرئيسية</a>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="logo">
+                    <div class="logo-icon">V</div>
+                    <span class="logo-text">Vexa DL</span>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">سياسة الخصوصية</a>
+                    <a href="terms.html">شروط الاستخدام</a>
+                    <a href="mailto:support@vexadl.com">تواصل معنا</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vexa DL. جميع الحقوق محفوظة.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
